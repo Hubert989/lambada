@@ -31,16 +31,16 @@
             this.tB1 = new System.Windows.Forms.TextBox();
             this.tB2 = new System.Windows.Forms.TextBox();
             this.rtB2 = new System.Windows.Forms.RichTextBox();
-            this.R1 = new System.Windows.Forms.RadioButton();
-            this.R2 = new System.Windows.Forms.RadioButton();
-            this.R3 = new System.Windows.Forms.RadioButton();
-            this.R4 = new System.Windows.Forms.RadioButton();
-            this.R5 = new System.Windows.Forms.RadioButton();
-            this.R6 = new System.Windows.Forms.RadioButton();
-            this.R7 = new System.Windows.Forms.RadioButton();
-            this.R8 = new System.Windows.Forms.RadioButton();
-            this.R8A = new System.Windows.Forms.RadioButton();
-            this.R9 = new System.Windows.Forms.RadioButton();
+            this.zad1 = new System.Windows.Forms.Button();
+            this.zad2 = new System.Windows.Forms.Button();
+            this.zad3 = new System.Windows.Forms.Button();
+            this.zad4 = new System.Windows.Forms.Button();
+            this.zad5 = new System.Windows.Forms.Button();
+            this.zad6 = new System.Windows.Forms.Button();
+            this.zad7 = new System.Windows.Forms.Button();
+            this.zad8 = new System.Windows.Forms.Button();
+            this.zad8b = new System.Windows.Forms.Button();
+            this.zad9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tB1
@@ -65,131 +65,121 @@
             this.rtB2.TabIndex = 3;
             this.rtB2.Text = "";
             // 
-            // R1
+            // zad1
             // 
-            this.R1.AutoSize = true;
-            this.R1.Location = new System.Drawing.Point(535, 67);
-            this.R1.Name = "R1";
-            this.R1.Size = new System.Drawing.Size(73, 17);
-            this.R1.TabIndex = 4;
-            this.R1.TabStop = true;
-            this.R1.Text = "Zadanie 1";
-            this.R1.UseVisualStyleBackColor = true;
+            this.zad1.Location = new System.Drawing.Point(664, 61);
+            this.zad1.Name = "zad1";
+            this.zad1.Size = new System.Drawing.Size(75, 23);
+            this.zad1.TabIndex = 23;
+            this.zad1.Text = "Zadanie 1";
+            this.zad1.UseVisualStyleBackColor = true;
+            this.zad1.Click += new System.EventHandler(this.zad1_Click);
             // 
-            // R2
+            // zad2
             // 
-            this.R2.AutoSize = true;
-            this.R2.Location = new System.Drawing.Point(535, 90);
-            this.R2.Name = "R2";
-            this.R2.Size = new System.Drawing.Size(73, 17);
-            this.R2.TabIndex = 6;
-            this.R2.TabStop = true;
-            this.R2.Text = "Zadanie 2";
-            this.R2.UseVisualStyleBackColor = true;
+            this.zad2.Location = new System.Drawing.Point(664, 90);
+            this.zad2.Name = "zad2";
+            this.zad2.Size = new System.Drawing.Size(75, 23);
+            this.zad2.TabIndex = 25;
+            this.zad2.Text = "Zadanie 2";
+            this.zad2.UseVisualStyleBackColor = true;
+            this.zad2.Click += new System.EventHandler(this.zad2_Click);
             // 
-            // R3
+            // zad3
             // 
-            this.R3.AutoSize = true;
-            this.R3.Location = new System.Drawing.Point(535, 113);
-            this.R3.Name = "R3";
-            this.R3.Size = new System.Drawing.Size(73, 17);
-            this.R3.TabIndex = 8;
-            this.R3.TabStop = true;
-            this.R3.Text = "Zadanie 3";
-            this.R3.UseVisualStyleBackColor = true;
+            this.zad3.Location = new System.Drawing.Point(664, 119);
+            this.zad3.Name = "zad3";
+            this.zad3.Size = new System.Drawing.Size(75, 23);
+            this.zad3.TabIndex = 27;
+            this.zad3.Text = "Zadanie 3";
+            this.zad3.UseVisualStyleBackColor = true;
+            this.zad3.Click += new System.EventHandler(this.zad3_Click);
             // 
-            // R4
+            // zad4
             // 
-            this.R4.AutoSize = true;
-            this.R4.Location = new System.Drawing.Point(535, 136);
-            this.R4.Name = "R4";
-            this.R4.Size = new System.Drawing.Size(73, 17);
-            this.R4.TabIndex = 10;
-            this.R4.TabStop = true;
-            this.R4.Text = "Zadanie 4";
-            this.R4.UseVisualStyleBackColor = true;
+            this.zad4.Location = new System.Drawing.Point(664, 148);
+            this.zad4.Name = "zad4";
+            this.zad4.Size = new System.Drawing.Size(75, 23);
+            this.zad4.TabIndex = 29;
+            this.zad4.Text = "Zadanie 4";
+            this.zad4.UseVisualStyleBackColor = true;
+            this.zad4.Click += new System.EventHandler(this.zad4_Click);
             // 
-            // R5
+            // zad5
             // 
-            this.R5.AutoSize = true;
-            this.R5.Location = new System.Drawing.Point(535, 159);
-            this.R5.Name = "R5";
-            this.R5.Size = new System.Drawing.Size(73, 17);
-            this.R5.TabIndex = 12;
-            this.R5.TabStop = true;
-            this.R5.Text = "Zadanie 5";
-            this.R5.UseVisualStyleBackColor = true;
+            this.zad5.Location = new System.Drawing.Point(664, 176);
+            this.zad5.Name = "zad5";
+            this.zad5.Size = new System.Drawing.Size(75, 23);
+            this.zad5.TabIndex = 31;
+            this.zad5.Text = "Zadanie 5";
+            this.zad5.UseVisualStyleBackColor = true;
+            this.zad5.Click += new System.EventHandler(this.zad5_Click);
             // 
-            // R6
+            // zad6
             // 
-            this.R6.AutoSize = true;
-            this.R6.Location = new System.Drawing.Point(535, 182);
-            this.R6.Name = "R6";
-            this.R6.Size = new System.Drawing.Size(73, 17);
-            this.R6.TabIndex = 14;
-            this.R6.TabStop = true;
-            this.R6.Text = "Zadanie 6";
-            this.R6.UseVisualStyleBackColor = true;
+            this.zad6.Location = new System.Drawing.Point(664, 205);
+            this.zad6.Name = "zad6";
+            this.zad6.Size = new System.Drawing.Size(75, 23);
+            this.zad6.TabIndex = 33;
+            this.zad6.Text = "Zadanie 6";
+            this.zad6.UseVisualStyleBackColor = true;
+            this.zad6.Click += new System.EventHandler(this.zad6_Click);
             // 
-            // R7
+            // zad7
             // 
-            this.R7.AutoSize = true;
-            this.R7.Location = new System.Drawing.Point(535, 205);
-            this.R7.Name = "R7";
-            this.R7.Size = new System.Drawing.Size(73, 17);
-            this.R7.TabIndex = 16;
-            this.R7.TabStop = true;
-            this.R7.Text = "Zadanie 7";
-            this.R7.UseVisualStyleBackColor = true;
+            this.zad7.Location = new System.Drawing.Point(664, 234);
+            this.zad7.Name = "zad7";
+            this.zad7.Size = new System.Drawing.Size(75, 23);
+            this.zad7.TabIndex = 35;
+            this.zad7.Text = "Zadanie 7";
+            this.zad7.UseVisualStyleBackColor = true;
+            this.zad7.Click += new System.EventHandler(this.zad7_Click);
             // 
-            // R8
+            // zad8
             // 
-            this.R8.AutoSize = true;
-            this.R8.Location = new System.Drawing.Point(535, 228);
-            this.R8.Name = "R8";
-            this.R8.Size = new System.Drawing.Size(79, 17);
-            this.R8.TabIndex = 18;
-            this.R8.TabStop = true;
-            this.R8.Text = "Zadanie 8a";
-            this.R8.UseVisualStyleBackColor = true;
+            this.zad8.Location = new System.Drawing.Point(664, 263);
+            this.zad8.Name = "zad8";
+            this.zad8.Size = new System.Drawing.Size(75, 23);
+            this.zad8.TabIndex = 37;
+            this.zad8.Text = "Zadanie 8";
+            this.zad8.UseVisualStyleBackColor = true;
+            this.zad8.Click += new System.EventHandler(this.zad8_Click);
             // 
-            // R8A
+            // zad8b
             // 
-            this.R8A.AutoSize = true;
-            this.R8A.Location = new System.Drawing.Point(535, 251);
-            this.R8A.Name = "R8A";
-            this.R8A.Size = new System.Drawing.Size(79, 17);
-            this.R8A.TabIndex = 20;
-            this.R8A.TabStop = true;
-            this.R8A.Text = "Zadanie 8b";
-            this.R8A.UseVisualStyleBackColor = true;
+            this.zad8b.Location = new System.Drawing.Point(664, 292);
+            this.zad8b.Name = "zad8b";
+            this.zad8b.Size = new System.Drawing.Size(75, 23);
+            this.zad8b.TabIndex = 39;
+            this.zad8b.Text = "Zadanie 8b";
+            this.zad8b.UseVisualStyleBackColor = true;
+            this.zad8b.Click += new System.EventHandler(this.zad8b_Click);
             // 
-            // R9
+            // zad9
             // 
-            this.R9.AutoSize = true;
-            this.R9.Location = new System.Drawing.Point(535, 274);
-            this.R9.Name = "R9";
-            this.R9.Size = new System.Drawing.Size(73, 17);
-            this.R9.TabIndex = 22;
-            this.R9.TabStop = true;
-            this.R9.Text = "Zadanie 9";
-            this.R9.UseVisualStyleBackColor = true;
+            this.zad9.Location = new System.Drawing.Point(664, 321);
+            this.zad9.Name = "zad9";
+            this.zad9.Size = new System.Drawing.Size(75, 23);
+            this.zad9.TabIndex = 41;
+            this.zad9.Text = "Zadanie 9";
+            this.zad9.UseVisualStyleBackColor = true;
+            this.zad9.Click += new System.EventHandler(this.zad9_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.R9);
-            this.Controls.Add(this.R8A);
-            this.Controls.Add(this.R8);
-            this.Controls.Add(this.R7);
-            this.Controls.Add(this.R6);
-            this.Controls.Add(this.R5);
-            this.Controls.Add(this.R4);
-            this.Controls.Add(this.R3);
-            this.Controls.Add(this.R2);
-            this.Controls.Add(this.R1);
+            this.Controls.Add(this.zad9);
+            this.Controls.Add(this.zad8b);
+            this.Controls.Add(this.zad8);
+            this.Controls.Add(this.zad7);
+            this.Controls.Add(this.zad6);
+            this.Controls.Add(this.zad5);
+            this.Controls.Add(this.zad4);
+            this.Controls.Add(this.zad3);
+            this.Controls.Add(this.zad2);
+            this.Controls.Add(this.zad1);
             this.Controls.Add(this.rtB2);
             this.Controls.Add(this.tB2);
             this.Controls.Add(this.tB1);
@@ -205,16 +195,16 @@
         private System.Windows.Forms.TextBox tB1;
         private System.Windows.Forms.TextBox tB2;
         private System.Windows.Forms.RichTextBox rtB2;
-        private System.Windows.Forms.RadioButton R1;
-        private System.Windows.Forms.RadioButton R2;
-        private System.Windows.Forms.RadioButton R3;
-        private System.Windows.Forms.RadioButton R4;
-        private System.Windows.Forms.RadioButton R5;
-        private System.Windows.Forms.RadioButton R6;
-        private System.Windows.Forms.RadioButton R7;
-        private System.Windows.Forms.RadioButton R8;
-        private System.Windows.Forms.RadioButton R8A;
-        private System.Windows.Forms.RadioButton R9;
+        private System.Windows.Forms.Button zad1;
+        private System.Windows.Forms.Button zad2;
+        private System.Windows.Forms.Button zad3;
+        private System.Windows.Forms.Button zad4;
+        private System.Windows.Forms.Button zad5;
+        private System.Windows.Forms.Button zad6;
+        private System.Windows.Forms.Button zad7;
+        private System.Windows.Forms.Button zad8;
+        private System.Windows.Forms.Button zad8b;
+        private System.Windows.Forms.Button zad9;
     }
 }
 
