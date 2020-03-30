@@ -66,7 +66,7 @@ namespace lambdaa
                 for (int i = 0; i < 10; i++)
                 {
                     tab[i] = potega(liczba, i);
-                    rtB2.Text = (i + 1) + "." + tab[i] + "\n";
+                    rtB2.Text += i+"."+tab[i] + "\n";
                 }
             
         }
