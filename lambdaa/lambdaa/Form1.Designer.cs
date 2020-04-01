@@ -67,87 +67,87 @@
             // 
             // zad1
             // 
-            this.zad1.Location = new System.Drawing.Point(664, 61);
+            this.zad1.Location = new System.Drawing.Point(536, 30);
             this.zad1.Name = "zad1";
-            this.zad1.Size = new System.Drawing.Size(75, 23);
+            this.zad1.Size = new System.Drawing.Size(140, 31);
             this.zad1.TabIndex = 23;
-            this.zad1.Text = "Zadanie 1";
+            this.zad1.Text = "x do n";
             this.zad1.UseVisualStyleBackColor = true;
             this.zad1.Click += new System.EventHandler(this.zad1_Click);
             // 
             // zad2
             // 
-            this.zad2.Location = new System.Drawing.Point(664, 90);
+            this.zad2.Location = new System.Drawing.Point(536, 67);
             this.zad2.Name = "zad2";
-            this.zad2.Size = new System.Drawing.Size(75, 23);
+            this.zad2.Size = new System.Drawing.Size(140, 33);
             this.zad2.TabIndex = 25;
-            this.zad2.Text = "Zadanie 2";
+            this.zad2.Text = "sklejenie dwóch napisów";
             this.zad2.UseVisualStyleBackColor = true;
             this.zad2.Click += new System.EventHandler(this.zad2_Click);
             // 
             // zad3
             // 
-            this.zad3.Location = new System.Drawing.Point(664, 119);
+            this.zad3.Location = new System.Drawing.Point(536, 106);
             this.zad3.Name = "zad3";
-            this.zad3.Size = new System.Drawing.Size(75, 23);
+            this.zad3.Size = new System.Drawing.Size(140, 36);
             this.zad3.TabIndex = 27;
-            this.zad3.Text = "Zadanie 3";
+            this.zad3.Text = "napis składający się z n podanych znaków";
             this.zad3.UseVisualStyleBackColor = true;
             this.zad3.Click += new System.EventHandler(this.zad3_Click);
             // 
             // zad4
             // 
-            this.zad4.Location = new System.Drawing.Point(664, 148);
+            this.zad4.Location = new System.Drawing.Point(536, 148);
             this.zad4.Name = "zad4";
-            this.zad4.Size = new System.Drawing.Size(75, 23);
+            this.zad4.Size = new System.Drawing.Size(140, 36);
             this.zad4.TabIndex = 29;
-            this.zad4.Text = "Zadanie 4";
+            this.zad4.Text = "10 wyrażeń lambda podnoszących x do n";
             this.zad4.UseVisualStyleBackColor = true;
             this.zad4.Click += new System.EventHandler(this.zad4_Click);
             // 
             // zad5
             // 
-            this.zad5.Location = new System.Drawing.Point(664, 176);
+            this.zad5.Location = new System.Drawing.Point(536, 190);
             this.zad5.Name = "zad5";
-            this.zad5.Size = new System.Drawing.Size(75, 23);
+            this.zad5.Size = new System.Drawing.Size(140, 34);
             this.zad5.TabIndex = 31;
-            this.zad5.Text = "Zadanie 5";
+            this.zad5.Text = "własna metoda";
             this.zad5.UseVisualStyleBackColor = true;
             this.zad5.Click += new System.EventHandler(this.zad5_Click);
             // 
             // zad6
             // 
-            this.zad6.Location = new System.Drawing.Point(664, 205);
+            this.zad6.Location = new System.Drawing.Point(536, 230);
             this.zad6.Name = "zad6";
-            this.zad6.Size = new System.Drawing.Size(75, 23);
+            this.zad6.Size = new System.Drawing.Size(140, 37);
             this.zad6.TabIndex = 33;
-            this.zad6.Text = "Zadanie 6";
+            this.zad6.Text = "Sortowanie liczb malejąco i rosnąco";
             this.zad6.UseVisualStyleBackColor = true;
             this.zad6.Click += new System.EventHandler(this.zad6_Click);
             // 
             // zad7
             // 
-            this.zad7.Location = new System.Drawing.Point(664, 234);
+            this.zad7.Location = new System.Drawing.Point(536, 273);
             this.zad7.Name = "zad7";
-            this.zad7.Size = new System.Drawing.Size(75, 23);
+            this.zad7.Size = new System.Drawing.Size(140, 50);
             this.zad7.TabIndex = 35;
-            this.zad7.Text = "Zadanie 7";
+            this.zad7.Text = "sortowanie liczb, najpierw parzyste rosnąco potem nieparzyste rosnąco";
             this.zad7.UseVisualStyleBackColor = true;
             this.zad7.Click += new System.EventHandler(this.zad7_Click);
             // 
             // zad8
             // 
-            this.zad8.Location = new System.Drawing.Point(664, 263);
+            this.zad8.Location = new System.Drawing.Point(536, 329);
             this.zad8.Name = "zad8";
-            this.zad8.Size = new System.Drawing.Size(75, 23);
+            this.zad8.Size = new System.Drawing.Size(140, 39);
             this.zad8.TabIndex = 37;
-            this.zad8.Text = "Zadanie 8";
+            this.zad8.Text = "sortowanie w kolejności alfabetycznej";
             this.zad8.UseVisualStyleBackColor = true;
             this.zad8.Click += new System.EventHandler(this.zad8_Click);
             // 
             // zad8b
             // 
-            this.zad8b.Location = new System.Drawing.Point(664, 292);
+            this.zad8b.Location = new System.Drawing.Point(713, 300);
             this.zad8b.Name = "zad8b";
             this.zad8b.Size = new System.Drawing.Size(75, 23);
             this.zad8b.TabIndex = 39;
@@ -157,11 +157,11 @@
             // 
             // zad9
             // 
-            this.zad9.Location = new System.Drawing.Point(664, 321);
+            this.zad9.Location = new System.Drawing.Point(536, 374);
             this.zad9.Name = "zad9";
-            this.zad9.Size = new System.Drawing.Size(75, 23);
+            this.zad9.Size = new System.Drawing.Size(140, 64);
             this.zad9.TabIndex = 41;
-            this.zad9.Text = "Zadanie 9";
+            this.zad9.Text = "metoda zwracaąca wyrażenie podnoszące liczbę do potęgi określonej parametrem";
             this.zad9.UseVisualStyleBackColor = true;
             this.zad9.Click += new System.EventHandler(this.zad9_Click);
             // 
@@ -184,7 +184,7 @@
             this.Controls.Add(this.tB2);
             this.Controls.Add(this.tB1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Wyrażenia lambda";
             this.ResumeLayout(false);
             this.PerformLayout();
 
