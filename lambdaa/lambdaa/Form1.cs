@@ -140,22 +140,7 @@ namespace lambdaa
             
         }
 
-        private void zad8b_Click(object sender, EventArgs e)
-        {
-           
-                string s = tB1.Text;
-                String[] split;
-                char[] cyfry = s.ToCharArray();
-
-
-
-                Array.Sort(cyfry, (a, b) => a.CompareTo(b));
-                for (int i = 0; i < cyfry.Length; i++)
-                {
-                    rtB2.Text += " " + cyfry[i] + " ";
-                }
-            
-        }
+       
         public double podnoszenie(double x)
         {
             double a = double.Parse(tB1.Text);

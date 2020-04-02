@@ -39,7 +39,6 @@
             this.zad6 = new System.Windows.Forms.Button();
             this.zad7 = new System.Windows.Forms.Button();
             this.zad8 = new System.Windows.Forms.Button();
-            this.zad8b = new System.Windows.Forms.Button();
             this.zad9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -145,16 +144,6 @@
             this.zad8.UseVisualStyleBackColor = true;
             this.zad8.Click += new System.EventHandler(this.zad8_Click);
             // 
-            // zad8b
-            // 
-            this.zad8b.Location = new System.Drawing.Point(713, 300);
-            this.zad8b.Name = "zad8b";
-            this.zad8b.Size = new System.Drawing.Size(75, 23);
-            this.zad8b.TabIndex = 39;
-            this.zad8b.Text = "Zadanie 8b";
-            this.zad8b.UseVisualStyleBackColor = true;
-            this.zad8b.Click += new System.EventHandler(this.zad8b_Click);
-            // 
             // zad9
             // 
             this.zad9.Location = new System.Drawing.Point(536, 374);
@@ -171,7 +160,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.zad9);
-            this.Controls.Add(this.zad8b);
             this.Controls.Add(this.zad8);
             this.Controls.Add(this.zad7);
             this.Controls.Add(this.zad6);
@@ -203,7 +191,6 @@
         private System.Windows.Forms.Button zad6;
         private System.Windows.Forms.Button zad7;
         private System.Windows.Forms.Button zad8;
-        private System.Windows.Forms.Button zad8b;
         private System.Windows.Forms.Button zad9;
     }
 }
